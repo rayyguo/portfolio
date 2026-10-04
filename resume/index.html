@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../projects/index.html">Projects</a>
+        <a href="index.html">Resume</a>
+        <a href="../contact/index.html">Contact</a>
+        <a href="https://github.com/rayyguo" target="_blank">GitHub</a>
+    </nav>
+    <h1>Resume</h1>
+
+    <header>
+        <p>Raymond Guo</p>
+        <p>
+            <a href="mailto:rayyguo@gmail.com">rayyguo@gmail.com</a> |
+            <a href="https://linkedin.com/in/rayyguo" target="_blank">linkedin.com/in/rayyguo</a>
+        </p>
+    </header>
+
+    <section>
+        <h2>Education</h2>
+        <article>
+            <header>
+                <h3>University of California, San Diego</h3>
+                <p>Bachelor of Science, Data Science | San Diego, CA</p>
+                <p>Expected <time datetime="2028-06">June 2028</time></p>
+            </header>
+            <ul>
+                <li>Cumulative GPA: 3.96/4.00</li>
+                <li>Coursework: Data Visualization, Probability, Machine Learning, Statistical Modeling, Data Structures and Algorithms</li>
+            </ul>
+        </article>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <article>
+            <header>
+                <h3>Pacific Consolidated Industries</h3>
+                <p>Data Analyst Intern | Riverside, CA</p>
+                <p><time datetime="2026-06">June 2026</time> – Present</p>
+            </header>
+            <ul>
+                <li>Took ownership of inherited analytics infrastructure spanning operations, sales, and finance, diagnosing and rebuilding failing end-of-day automation pipelines for US and India sites with file-based logging to restore reliable daily reporting</li>
+                <li>Rebuilt Power BI reports with optimized DAX measures and Power Query, cutting report load time by 52%</li>
+                <li>Migrated data source credentials to a Microsoft Entra ID service principal, eliminating refresh failures across 6 datasets</li>
+                <li>Developed a job and PO tracking tool with React, TypeScript, Express, and Azure SQL using AI-assisted development, shipping in 4 weeks and giving purchasing and planning teams real-time status visibility in place of email chains</li>
+            </ul>
+        </article>
+        <article>
+            <header>
+                <h3>AirICU</h3>
+                <p>Data Analyst Intern | City of Industry, CA</p>
+                <p><time datetime="2025-06">June 2025</time> – <time datetime="2025-09">September 2025</time></p>
+            </header>
+            <ul>
+                <li>Reduced manual data processing time by 43% and improved report consistency by automating Python ETL pipelines</li>
+                <li>Analyzed 2+ years of customer transaction data using SQL to identify purchasing patterns and seasonal demand trends</li>
+                <li>Delivered 20+ Power BI dashboards with automated daily refreshes, used weekly across 5 business departments</li>
+                <li>Documented data pipeline and reporting workflows in SharePoint, reducing onboarding time for new members by 24%</li>
+            </ul>
+        </article>
+        <article>
+            <header>
+                <h3>Dasion</h3>
+                <p>Data Scientist Intern | Claremont, CA</p>
+                <p><time datetime="2024-05">May 2024</time> – <time datetime="2024-08">August 2024</time></p>
+            </header>
+            <ul>
+                <li>Prototyped a rule-based depression risk classifier on 1,000+ YouTube samples with 87% alignment to labeled outcomes</li>
+                <li>Integrated the OpenAI Whisper API for audio transcription, applying preprocessing to reduce word error rate by 32%</li>
+                <li>Tuned rule thresholds toward recall to minimize missed at-risk cases, improving recall from 72% to 86% on held-out data</li>
+            </ul>
+        </article>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <article>
+            <header>
+                <h3>Professional League of Legends Match Analysis</h3>
+                <p><time datetime="2026-04">April 2026</time> – <time datetime="2026-06">June 2026</time></p>
+            </header>
+            <ul>
+                <li>Analyzed 25,058 professional LoL match records to identify which team statistics most separate wins from losses</li>
+                <li>Engineered kill-pace and objective-control features and tuned random forest hyperparameters via 5-fold GridSearchCV</li>
+                <li>Validated results with permutation tests and a fairness audit showing a 5.1-point accuracy gap across game length</li>
+            </ul>
+        </article>
+        <article>
+            <header>
+                <h3>Student Happiness and Housing Analysis</h3>
+                <p><time datetime="2025-05">May 2025</time> – <time datetime="2025-08">August 2025</time></p>
+            </header>
+            <ul>
+                <li>Modeled 2,000+ student survey records via linear regression, revealing a statistically significant housing-happiness link</li>
+                <li>Cleaned and preprocessed survey data in Pandas, handling missing values, outliers, and categorical variable encoding</li>
+                <li>Built interactive Tableau visualizations to explore housing-happiness trends across demographic and academic subgroups</li>
+            </ul>
+        </article>
+        <article>
+            <header>
+                <h3>Wizard Chess</h3>
+                <p><time datetime="2025-04">April 2025</time> – <time datetime="2025-06">June 2025</time></p>
+            </header>
+            <ul>
+                <li>Created a fantasy chess engine in C++ using virtual functions and 6 polymorphic piece classes with en passant logic</li>
+                <li>Implemented an interactive Qt GUI with board rendering, click-based movement, move highlighting, and turn tracking</li>
+                <li>Detected checkmate and stalemate via exhaustive legal-move simulation, verified with 15 GoogleTest unit tests</li>
+            </ul>
+        </article>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Languages:</strong> Python, R, SQL, C++, JavaScript, TypeScript</li>
+            <li><strong>Analytics &amp; BI:</strong> Power BI (DAX, Power Query), Tableau, Excel (PivotTables), Pandas, NumPy, Scikit-learn</li>
+            <li><strong>Data &amp; Tools:</strong> Query Optimization, ETL Pipelines, Data Modeling, REST APIs, Azure SQL, Epicor ERP BAQs, Git</li>
+            <li><strong>Certifications:</strong> Google Data Analytics</li>
+        </ul>
+    </section>
+</body>
+</html>
