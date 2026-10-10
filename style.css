@@ -87,3 +87,39 @@ form button {
     margin: 0;
   }
 }
+
+/* Resume page */
+section {
+  margin-block: 2em;
+
+  > h2 {
+    margin-bottom: 0.5em;
+    padding-bottom: 0.2em;
+    border-bottom: 2px solid var(--color-accent);
+  }
+
+  article {
+    margin-block: 1.5em;
+  }
+
+  article header {
+    /* Name and role on the left, dates on the right */
+    display: grid;
+    grid-template-columns: 1fr auto;
+    column-gap: 1em;
+
+    h3,
+    p {
+      margin: 0;
+    }
+
+    p:last-child {
+      grid-area: 1 / 2;
+      color: oklch(50% 3% 200);
+    }
+  }
+
+  li::marker {
+    color: var(--color-accent);
+  }
+}
