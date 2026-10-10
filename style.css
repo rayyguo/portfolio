@@ -36,26 +36,24 @@ nav a:hover {
   padding-bottom: 0.1em;
 }
 
+input,
+textarea,
+button {
+  font: inherit;
+}
+
 form {
-  /* Keep all the fields and the button in a single row */
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto 1fr;
   gap: 1em;
-  white-space: nowrap;
 }
 
 form label {
-  /* Let each field shrink so the row fits narrow windows */
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
-  flex: 1;
-  min-width: 0;
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
 }
 
-form input,
-form textarea {
-  flex: 1;
-  min-width: 0;
-  font: inherit;
+form button {
+  grid-column: 1 / -1;
 }
