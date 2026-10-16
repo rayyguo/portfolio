@@ -52,9 +52,17 @@ nav a:hover {
   padding-bottom: 0.1em;
 }
 
+.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 80%;
+}
+
 input,
 textarea,
-button {
+button,
+select {
   font: inherit;
 }
 
