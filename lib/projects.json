@@ -1,61 +1,73 @@
 [
   {
+    "title": "Personal Portfolio Website",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built this site for DSC 106 with HTML, CSS and JavaScript: a responsive layout with CSS Grid, a navigation menu and dark mode switcher generated in JavaScript, and project data loaded from a JSON file."
+  },
+  {
+    "title": "Professional League of Legends Match Analysis",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Analyzed 25,058 professional LoL match records to identify which team statistics most separate wins from losses, engineering kill-pace and objective-control features and tuning a random forest with 5-fold GridSearchCV."
+  },
+  {
+    "title": "Job and PO Tracking Tool",
+    "year": "2026",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Developed a job and PO tracking tool with React, TypeScript, Express, and Azure SQL, giving purchasing and planning teams real-time status visibility in place of email chains."
+  },
+  {
+    "title": "Student Happiness and Housing Analysis",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Modeled 2,000+ student survey records via linear regression, revealing a statistically significant housing-happiness link, and built interactive Tableau visualizations across demographic and academic subgroups."
+  },
+  {
+    "title": "Wizard Chess",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Created a fantasy chess engine in C++ with 6 polymorphic piece classes and an interactive Qt GUI, detecting checkmate and stalemate via exhaustive legal-move simulation verified with GoogleTest."
+  },
+  {
+    "title": "Power BI Reporting Dashboards",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Delivered 20+ Power BI dashboards with automated daily refreshes, backed by Python ETL pipelines and SQL analysis of 2+ years of customer transaction data."
+  },
+  {
+    "title": "Depression Risk Classifier",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Prototyped a rule-based depression risk classifier on 1,000+ YouTube samples, using the OpenAI Whisper API for transcription and tuning thresholds toward recall."
+  },
+  {
     "title": "Lorem ipsum dolor sit.",
+    "year": "2024",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
   },
   {
     "title": "Architecto minima sed omnis.",
+    "year": "2024",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
   },
   {
     "title": "Quos ea ullam pariatur.",
+    "year": "2023",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
   },
   {
     "title": "Nisi nemo aut accusamus.",
+    "year": "2023",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
   },
   {
     "title": "Eveniet tenetur quia aperiam.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
-  },
-  {
-    "title": "Dolorum voluptas ab cumque.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
-  },
-  {
-    "title": "Ratione fugit eos quasi.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
-  },
-  {
-    "title": "Sapiente nobis quod minus.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
-  },
-  {
-    "title": "Laboriosam itaque dicta facere.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
-  },
-  {
-    "title": "Voluptatum nulla saepe magni.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
-  },
-  {
-    "title": "Beatae esse tempora ducimus.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
-  },
-  {
-    "title": "Minus placeat quaerat odit.",
+    "year": "2022",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor quos, quod assumenda explicabo odio, nobis ipsa laudantium quas eum veritatis ullam sint porro minima modi molestias doloribus cumque odit."
   }
