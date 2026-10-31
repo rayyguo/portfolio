@@ -96,6 +96,14 @@ form button {
   h2 {
     margin: 0;
   }
+
+  .project-year {
+    margin-top: 0;
+    font-family: Baskerville, serif;
+    font-style: italic;
+    font-variant-numeric: oldstyle-nums;
+    color: oklch(50% 3% 200);
+  }
 }
 
 /* Resume page */
