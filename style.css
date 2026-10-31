@@ -150,6 +150,15 @@ form button {
   background: var(--color);
 }
 
+.searchBar {
+  width: 100%;
+  margin-bottom: 2em;
+  padding: 0.5em 0.75em;
+  font: inherit;
+  border: 1px solid oklch(50% 3% 200 / 40%);
+  border-radius: 0.5em;
+}
+
 /* Resume page */
 section {
   margin-block: 2em;
