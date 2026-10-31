@@ -113,6 +113,43 @@ form button {
   overflow: visible;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 2em;
+}
+
+.legend {
+  flex: 1;
+  min-width: 12em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em;
+  margin-block: 2em;
+  padding: 1em;
+  border: 1px solid oklch(50% 3% 200 / 40%);
+  border-radius: 0.5em;
+  list-style: none;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+
+  em {
+    color: oklch(50% 3% 200);
+  }
+}
+
+.swatch {
+  width: 1em;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background: var(--color);
+}
+
 /* Resume page */
 section {
   margin-block: 2em;
