@@ -111,6 +111,25 @@ form button {
   margin-block: 2em;
 
   overflow: visible;
+
+  &:has(path:hover) {
+    path:not(:hover) {
+      opacity: 0.5;
+    }
+  }
+
+  path {
+    transition: 300ms;
+    cursor: pointer;
+  }
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
 }
 
 .container {
@@ -137,6 +156,7 @@ form button {
   display: flex;
   align-items: center;
   gap: 0.4em;
+  cursor: pointer;
 
   em {
     color: oklch(50% 3% 200);
