@@ -235,3 +235,11 @@ section {
     font-size: 200%;
   }
 }
+
+.gridlines {
+  opacity: 0.2;
+
+  .domain {
+    display: none;
+  }
+}
