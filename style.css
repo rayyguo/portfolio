@@ -214,3 +214,24 @@ section {
     color: var(--color-accent);
   }
 }
+
+.stats {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: 0.25em 1em;
+
+  dt {
+    grid-row: 1;
+    font-size: 80%;
+    text-transform: uppercase;
+    color: oklch(50% 3% 200);
+  }
+
+  dd {
+    grid-row: 2;
+    margin: 0;
+    font-size: 200%;
+  }
+}
