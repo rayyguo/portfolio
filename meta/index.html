@@ -11,11 +11,23 @@
 <body>
     <h1>Meta</h1>
     <p>This page includes stats about the code of this website.</p>
+    <div id="time-filter">
+      <label>
+        Show commits until:
+        <input type="range" id="commit-progress" min="0" max="100" value="100">
+        <time id="commit-time"></time>
+      </label>
+    </div>
     <div id="stats"></div>
-    <h2>Commits by time of day</h2>
-    <div id="chart"></div>
-    <p id="selection-count">No commits selected</p>
-    <dl id="language-breakdown" class="stats"></dl>
+    <div id="scrolly-1">
+      <div id="scatter-story"></div>
+      <div id="scatter-plot">
+        <h2>Commits by time of day</h2>
+        <div id="chart"></div>
+        <p id="selection-count">No commits selected</p>
+        <dl id="language-breakdown" class="stats"></dl>
+      </div>
+    </div>
     <dl id="commit-tooltip" class="info tooltip" hidden>
       <dt>Commit</dt>
       <dd>
@@ -34,5 +46,6 @@
       <dt>Lines edited</dt>
       <dd id="commit-lines"></dd>
     </dl>
+    <dl id="files"></dl>
 </body>
 </html>
